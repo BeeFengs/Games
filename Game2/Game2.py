@@ -70,5 +70,5 @@ class VCGame(cocos.layer.ColorLayer):
 
 '''run'''
 if __name__ == '__main__':
-    cocos.director.director.init(caption="Pikachu Go Go Go —— Charles的皮卡丘")
+    cocos.director.director.init(caption="八分音符")
     cocos.director.director.run(cocos.scene.Scene(VCGame()))

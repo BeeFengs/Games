@@ -18,7 +18,7 @@ def initGame():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode((cfg.SCREENWIDTH, cfg.SCREENHEIGHT))
-    pygame.display.set_caption('Flappy Bird —— Charles的皮卡丘')
+    pygame.display.set_caption('小鸟飞翔')
     return screen
 
 

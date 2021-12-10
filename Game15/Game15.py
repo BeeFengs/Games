@@ -17,7 +17,7 @@ from modules import *
 def main():
     pygame.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('Gemgem —— Charles的皮卡丘')
+    pygame.display.set_caption('Gemgem —— ')
     # 加载背景音乐
     pygame.mixer.init()
     pygame.mixer.music.load(os.path.join(cfg.ROOTDIR, "resources/audios/bg.mp3"))

@@ -46,7 +46,7 @@ class TetrisGame(QMainWindow):
         self.external_board.score_signal[str].connect(self.status_bar.showMessage)
         self.start()
         self.center()
-        self.setWindowTitle('Tetris —— Charles的皮卡丘')
+        self.setWindowTitle('俄罗斯方块')
         self.show()
         self.setFixedSize(self.external_board.width() + self.side_panel.width(), self.side_panel.height() + self.status_bar.height())
     '''游戏界面移动到屏幕中间'''

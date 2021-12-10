@@ -146,7 +146,7 @@ def main():
     pygame.font.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('飞机大战 —— Charles的皮卡丘')
+    pygame.display.set_caption('飞机大战 —— 单双人模式')
     num_player = StartInterface(screen, cfg)
     if num_player == 1:
         while True:

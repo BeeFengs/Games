@@ -147,7 +147,7 @@ def main():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode((cfg.WIDTH, cfg.HEIGHT))
-    pygame.display.set_caption('pingpong —— Charles的皮卡丘')
+    pygame.display.set_caption('pingpong')
     # 开始游戏
     while True:
         score_left, score_right = runDemo(screen)

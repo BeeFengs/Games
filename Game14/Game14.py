@@ -143,7 +143,7 @@ def initialize():
     icon_image = pygame.image.load(cfg.ICONPATH)
     pygame.display.set_icon(icon_image)
     screen = pygame.display.set_mode([606, 606])
-    pygame.display.set_caption('Pacman —— Charles的皮卡丘')
+    pygame.display.set_caption('Pacman')
     return screen
 
 

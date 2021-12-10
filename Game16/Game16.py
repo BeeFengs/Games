@@ -101,7 +101,7 @@ def main():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(SCREENSIZE)
-    pygame.display.set_caption('24 point —— Charles的皮卡丘')
+    pygame.display.set_caption('24 point ')
     win_sound = pygame.mixer.Sound(AUDIOWINPATH)
     lose_sound = pygame.mixer.Sound(AUDIOLOSEPATH)
     warn_sound = pygame.mixer.Sound(AUDIOWARNPATH)

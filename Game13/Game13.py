@@ -213,7 +213,7 @@ def startGame(screen):
 def main():
     # 初始化
     pygame.init()
-    pygame.display.set_caption('外星人入侵 —— Charles的皮卡丘')
+    pygame.display.set_caption('外星人入侵 ')
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
     pygame.mixer.init()
     pygame.mixer.music.load(cfg.BGMPATH)

@@ -147,7 +147,7 @@ def main():
     pygame.mixer.music.play(-1)
     # 设置屏幕
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('滑雪游戏 —— Charles的皮卡丘')
+    pygame.display.set_caption('滑雪游戏')
     # 游戏开始界面
     ShowStartInterface(screen, cfg.SCREENSIZE)
     # 实例化游戏精灵

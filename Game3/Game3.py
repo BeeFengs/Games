@@ -131,7 +131,7 @@ def main():
     game_img_used_rect = game_img_used.get_rect()
     # 设置窗口
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('拼图游戏 —— Charles的皮卡丘')
+    pygame.display.set_caption('拼图游戏')
     # 游戏开始界面
     size = ShowStartInterface(screen, game_img_used_rect.width, game_img_used_rect.height)
     assert isinstance(size, int)
