@@ -21,7 +21,7 @@ def main(cfg):
     pygame.mixer.music.load(cfg.BGMPATH)
     pygame.mixer.music.play(-1, 0.0)
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('Bomber Man —— Charles的皮卡丘')
+    pygame.display.set_caption('快乐泡泡堂')
     # 开始界面
     Interface(screen, cfg, mode='game_start')
     # 游戏主循环

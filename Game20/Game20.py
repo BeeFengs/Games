@@ -21,7 +21,7 @@ def main(cfg):
     pygame.mixer.music.load(cfg.BGMPATH)
     pygame.mixer.music.play(-1, 0.0)
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('Maze —— Charles的皮卡丘')
+    pygame.display.set_caption('快乐迷宫')
     font = pygame.font.SysFont('Consolas', 15)
     # 开始界面
     Interface(screen, cfg, 'game_start')

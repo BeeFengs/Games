@@ -16,7 +16,7 @@ def main(cfg):
     # 初始化
     pygame.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('魔塔 —— Charles的皮卡丘')
+    pygame.display.set_caption('魔塔 ')
     # 开始界面
     sg_interface = StartGameInterface(cfg)
     sg_interface.run(screen)

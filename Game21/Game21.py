@@ -18,7 +18,7 @@ def initGame():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('打地鼠 —— Charles的皮卡丘')
+    pygame.display.set_caption('快乐打地鼠')
     return screen
 
 

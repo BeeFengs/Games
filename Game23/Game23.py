@@ -17,7 +17,7 @@ def main(cfg):
     # 游戏初始化
     pygame.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('2048 —— Charles的皮卡丘')
+    pygame.display.set_caption('2048')
     # 播放背景音乐
     pygame.mixer.music.load(cfg.BGMPATH)
     pygame.mixer.music.play(-1)

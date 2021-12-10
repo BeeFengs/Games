@@ -19,7 +19,7 @@ class gameStartUI(QWidget):
     def __init__(self, parent=None, **kwargs):
         super(gameStartUI, self).__init__(parent)
         self.setFixedSize(760, 650)
-        self.setWindowTitle('五子棋 —— Charles的皮卡丘')
+        self.setWindowTitle('快乐五子棋')
         self.setWindowIcon(QIcon(cfg.ICON_FILEPATH))
         # 背景图片
         palette = QPalette()

@@ -20,7 +20,7 @@ def main(cfg):
     pygame.mixer.music.load(cfg.BGMPATH)
     pygame.mixer.music.play(-1, 0.0)
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('Angry Birds —— Charles的皮卡丘')
+    pygame.display.set_caption('愤怒的小鸟')
     # 开始游戏
     def startgame():
         game_levels = GameLevels(cfg, screen)
