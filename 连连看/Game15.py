@@ -1,10 +1,5 @@
 '''
-Function:
-    消消乐小游戏
-Author:
-    Charles
-微信公众号:
-    Charles的皮卡丘
+
 '''
 import os
 import sys
